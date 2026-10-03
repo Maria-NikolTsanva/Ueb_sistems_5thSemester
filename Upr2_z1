@@ -1,0 +1,16 @@
+<table>
+<caption>Заглавие</caption>
+
+<thead>
+<tr> <th>Колона 1</th> <th>Колона 2</th> </tr>
+</thead>
+
+<tbody>
+<tr> <td>Клетка 1.1</td> <td>Клетка 1.2</td> </tr>
+<tr> <td>Клетка 2.1</td> <td>Клетка 2.2</td> </tr>
+</tbody>
+
+<tfoot>
+<tr> <td>Клетка 3.1</td> <td>Клетка 3.2</td> </tr>
+</tfoot>
+</table>
