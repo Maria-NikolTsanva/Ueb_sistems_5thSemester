@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <p> Hello, word</p>
+   <h1> Welcome to Sublime text 3th</h1>
+<p> What oes the bulgarian say?</p>
+
+<ul>
+  <li>Everyone decide alone for themself</li>
+  <li>  Hungry bear doesnt bogey bogey  </li>
+</ul>
+
+<hr/>
+
+<p><b>&copy My first HTMl <sub>.tm</sub> Page</b></p>
+
+<ol type="I">
+  <li>List Item 1</li> 
+   <ol type="a">   
+   <li>Nested Item 1.1</li>
+   <li>Nested Item 1.2</li>
+   </ol>
+
+<li>List Item 2</li>
+ <ol type="1">
+  <li>Nusted item 2.1</li> 
+  <li>Nusted Item 2.2</li>
+   <ul type="circle">
+    <li>Nusted Item 2.2.1</li>
+    <li>Nusted Item 2.2.2</li>
+    <ul typ="squre">
+       <li>Nusted Itedm 2.2.2.1</li>
+       <li>Nusted Itedm 2.2.2.2</li>
+    </ul>
+    <li>Nusted Item 2.2.</li>
+   </ul>
+   <li>Nusted Item 2.3</li>
+   </ol>
+   </li>
+
+<li>List Item 3</li>
+<ul type="square">
+  <li>Nested Item 3.1</li>
+  <li>Nested Item 3.2</li>
+  <li>Nested Item 3.3</li>
+   
+</ul>
+ </ol>
+
+
+
+</h1>
+  </head>
+  <body>
+      
+
+
+  </body>
+</html>
