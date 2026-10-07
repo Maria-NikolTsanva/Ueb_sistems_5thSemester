@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+<style>
+  td, th{
+ border:solid 1px blue
+  }
+  table{
+    border-collapse: collapse;
+  }
+  
+</style>
+
+</head>
+
+<body>
+
+
+<table rowspan=11>
+  <tr>
+    <td rowspan="11">TCB</td> 
+    <td>Order no:</td> 
+    <td colspan="3" >#ABC001</td>
+  </tr>
+  <tr>
+    <td>Order Date:</td> 
+    <td colspan="3">23-May</td>
+  </tr>
+  <tr>
+     <td colspan="4">Customer</td>
+  </tr>
+  <tr>
+    <td>Name:</td> 
+    <td colspan="3">John</td>
+  </tr>
+  <tr>
+    <td>Adress</td>
+    <td colspan="3">In Day 23</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Order Details</b></td>
+  </tr>
+  <tr>
+    <td>1</td> <td>Of Mice and Men</td> <td>Book</td> <td>10.00</td>
+  </tr>
+<tr>
+  <td>2</td> <td>Les Msi</td> <td>Book</td> <td>12.00</td>
+</tr>
+<tr>
+  <td>3</td> <td>Game of Thrones</td> <td>DVD</td> <td>50</td>
+</tr>
+  
+</table>
+
+</body>
+
+</html>
