@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        HTML Forms Example
+    </title>
+    <meta charset="UTF-8"/>
+</head>
+<body>
+<form>
+   
+<label>Your name</label> 
+<br>
+<input type="text">
+<br>
+<input type="password">
+<br>
+<input type="checkbox"> Rmbr me
+<input type="submit" value="Send">
+
+
+
+</form>
+</body>
+</html>
