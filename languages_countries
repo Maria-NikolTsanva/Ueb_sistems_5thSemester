@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        HTML Forms Example
+    </title>
+    <meta charset="UTF-8"/>
+</head>
+<body>
+<form>
+    <fieldset>
+        <legend>Заглавие на поле</legend>
+            <label for="name">Име</label>
+            <input type="text" name="name"/>
+        <br />
+        <label for="degree">Език</label>
+        <select name="degree" id="degree">
+            <option value="en">Английски</option>
+            <option value="de">Немски</option>
+            <option value="fr" selected="selected">Френски</option>
+        </select>
+        <br />
+        <label> Трудов опит </label>
+        <input type="radio" name="experience" value="y" />
+        <label for="experience">Да</label>
+        <input type="radio" name="experience" value="n" />
+        <label for="gf">Не</label>
+    </fieldset>
+    <p>
+        <input type="submit" name="submit" value="Send Form" />
+    </p>
+</form>
+</body>
+</html>
