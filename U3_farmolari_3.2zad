@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+            Ргистрация
+            </head>
+        <form action="">
+            
+
+            <fieldset>
+                <legend>Лична инфо</legend>
+                <label>Име:</label>
+                <input type="text">
+                <label>Парола</label>
+                <input type="password">
+
+<label>Пол:</label>
+<input type="radio" name="gender" value="male"> Мъж
+<input type="radio" name="gender" value="female"> Жена
+
+<label>Езици:</label>
+<input type="checkbox" name="english">Английски
+<input type="checkbox" name="german">Немски
+<input type="checkbox" name="french">Фрнски
+
+<label>Избри спиалност:</label>
+<select name"specialnosti">
+<option value="html">Уееб тех</option>
+<option value="java">ДЖАВА</option>
+<option value="design">Графичеен дизайн</option>
+</select>
+            </fieldset>       
+
+        </form>
+    </title>
+</body>
+</html>
