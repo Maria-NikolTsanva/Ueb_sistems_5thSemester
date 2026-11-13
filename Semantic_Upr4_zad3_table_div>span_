@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+<style>
+	div>span { /* вс деца на див, ки са span => ТАЗБЛИЦАТА ПРАВИМ*/
+	border: solid 2px black; /* рамката е с нпркъсната линия, деебела 2 пиксла*/
+	font-size: 16px; /* размера на текста*/
+	display: inline-block; /* span ппц е Inline ( не приема width/height/margin-top) s inline- block : 
+	1. оставя на един ред с др inline ел-ти
+	2. но приема with, height, margin, paddind i border */
+	text-align: center;
+	}
+	div>span:nth-child(1){ /* 1wiqt span - dirkno dete na div */
+		width: 100px;
+	}
+	div>span:nth-child(2){
+		border-right: none; /* premahva right ramka */
+		border-left: none; /* -||- lqvata */
+		width: 100px; /* 90, a ne 100 bc SAMATA RAMKA E PIKSELI */
+	}
+		div>span:nth-child(3){
+			width: 60px;
+
+		}
+		div {
+			font-size: 0px;
+		} /* tova e класическият trick за премахване на whitespace gap между inline-block елементи.
+
+Проблем: В HTML между <span>-овете има whitespace (пробели== INTERVALI ( 4PX) , чрез това прави интервалите с размери 0px */
+
+
+</style>
+
+	</head>
+	<body>
+		<img src="Logo.jpg" alt="" height="17">
+
+		<span>Welcome to Our Wb Site</span>
+
+		<ul>
+		<li><a href="#">Nav item 1</a></li>
+		<li><a href="#">Nav item 1</a></li>
+		<li><a href="#">Nav item 1</a></li>
+		<li><a href="#">Nav item 1</a></li>
+		</ul>
+		<div>
+			<span><b>First Name</b></span>
+			<span><b>Last Name</b></span>
+			<span><b>Score</b></span>
+		</div>
+		<div>
+			<span>Ivan</span>
+			<span>Petrov</span>
+			<span>4.54</span>
+		</div>
+		<div>
+			<span>Petar</span>
+			<span>Petrov</span>
+			<span>4.31</span>
+		</div>
+		<div>
+			<span>Kiro</span>
+			<span>Kirov</span>
+			<span>5.22</span>
+		</div>
+	</body>
+
+</html>
