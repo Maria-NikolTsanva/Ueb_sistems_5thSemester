@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+<style>
+	
+
+</style>
+
+	</head>
+	<body>
+		
+		
+<header>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+
+<blockquote>proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</blockquote> 
+</header>
+		
+<nav>Menu Elemets</nav>
+
+<h1>Main Heading of Page</h1>
+<section>
+	<h4>Section 1</h4>
+	<article>Article 1</article>
+	<article>Article 2</article>
+	<article>Article 3</article>
+	<article>Article 4</article>
+
+</section>
+ <section>
+ 	<h4>Section 2</h4>
+ 	<article>Article 4</article>
+ 	<article>Article 5</article>
+	<article>Article 6</article>
+<div>Regular DIV element</div>
+
+ </section>
+<aside><p>ASIDE-some info</p></aside>
+<footer>
+	<div>contact link</div>
+	<div>Footer copyright 2026</div>
+</footer>
+	</body>
+
+</html>
