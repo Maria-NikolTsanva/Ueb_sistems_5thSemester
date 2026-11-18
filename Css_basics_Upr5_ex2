@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>
+            Таблица
+        </title>
+        <meta charset="UTF-8">
+        <style>
+            .small-text{
+                font-size:6px;
+            }
+        </style>
+    </head>
+<body>
+    <h3> Hello, I am H3 </h3>
+    <p> Hello, I am paragraph </p>
+    <p class="small-text"> Hello, I am paragraph with small text</p>
+</body>
+</html
